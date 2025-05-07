@@ -1,0 +1,23 @@
+
+git init
+
+git status
+
+git add .
+
+git commit -m "first commit"
+
+to config git bash with git hub account:
+
+git config --global user.name "My Name"
+git config --global user.email "myemail@example.com"
+
+to check git hub details"
+git config user.name
+git config user.email
+
+to push from local repo to remote repo:
+
+git branch -M main
+git remote add origin https://github.com/zaheerfsdgit/Git101.git
+git push -u origin main
